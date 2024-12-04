@@ -1,0 +1,24 @@
+{
+	"clients": {
+		"odin": {
+			"command": [
+				"/path/to/ols"
+			],
+			"enabled": true,
+			"selector": "source.odin",
+			"initializationOptions": {
+				"collections": [
+					{
+						"name": "collection_a",
+						"path": "/path/to/collection_a"
+					}
+				],
+				"enable_semantic_tokens": true,
+				"enable_document_symbols": true,
+				"enable_hover": true,
+				"enable_snippets": true,
+				"enable_format": true
+			}
+		}
+	}
+}
